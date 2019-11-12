@@ -1,0 +1,31 @@
+.menu {
+  position: relative;
+  list-style: none;
+  background-color: $grey;
+  width: 220px;
+  max-height: 150px;
+  overflow-y: auto;
+  border-radius: 2px;
+  border: 1px solid $carbon-border;
+  margin: 0;
+  padding: 0;
+  &__element {
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: $smallSpace/2 $smallSpace;
+    transition: all 200ms ease-in;
+    &:hover {
+      background-color: rgba($white, .1);
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+    cursor: pointer;
+  }
+  &__icon {
+    font-size: 1rem;
+  }
+}

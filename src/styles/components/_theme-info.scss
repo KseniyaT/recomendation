@@ -1,0 +1,26 @@
+.theme-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  margin-bottom: $smallSpace/2;
+
+  @media screen and (max-width: 767px) {
+    width: 100px;
+  }
+
+  &__name {
+    padding-right: $middleSpace;
+    width: 86px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 18px;
+    max-height: 36px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    @media screen and (max-width: 767px) {
+      padding-right: $smallSpace/2;
+    }
+  }
+}

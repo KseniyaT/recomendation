@@ -1,0 +1,24 @@
+.table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  &__row {
+    outline: 0;
+    vertical-align: middle;
+    &:hover {
+      background-color: rgba($white, 0.14)
+    }
+  }
+  &__cell {
+    padding: $smallSpace;
+    font-size: .9rem;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 400;
+    border-bottom: 1px solid $carbon-border;
+    vertical-align: inherit;
+    &_th {
+      font-size: 1.1rem;
+    }
+  }
+}

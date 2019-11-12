@@ -1,0 +1,9 @@
+.notification {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: $smallSpace;
+  padding: 1rem;
+  &_error {
+    background-color: $red;
+  }
+}

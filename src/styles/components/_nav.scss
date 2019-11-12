@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: $smallSpace $middleSpace;
+  box-sizing: border-box;
+  &__btn {
+    @extend .btn;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: inherit;
+    border: 1px solid $violet;
+    color: $violet;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgba($violet, .1);
+    }
+  }
+}

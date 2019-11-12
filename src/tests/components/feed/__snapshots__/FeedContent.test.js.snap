@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedContent should render with given state from Redux store 1`] = `
+<section
+  className="main"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="wrapper__header"
+    >
+      
+      <div
+        className="filter filter_left"
+      >
+        <button
+          className="filter__icon"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <i
+            className="material-icons"
+          >
+            filter_list
+          </i>
+        </button>
+      </div>
+    </div>
+    <div
+      className="wrapper__body"
+    >
+      <table
+        className="table"
+      >
+        <thead
+          className="table__head"
+        >
+          <tr
+            className="table__row"
+          >
+            <th
+              className="table__cell table__cell_th"
+            >
+              Theme
+            </th>
+            <th
+              className="table__cell table__cell_th"
+            >
+              Feedback
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="table__body"
+        >
+          <tr
+            className="table__row"
+          >
+            <td
+              className="table__cell"
+            >
+              <div
+                className="theme-info"
+              >
+                <p
+                  className="theme-info__name"
+                >
+                  Accounts
+                </p>
+                <i
+                  className="theme-info__icon material-icons"
+                >
+                  sentiment_satisfied
+                </i>
+              </div>
+            </td>
+            <td
+              className="table__cell"
+            >
+              exelent
+            </td>
+          </tr>
+          <tr
+            className="table__row"
+          >
+            <td
+              className="table__cell"
+            >
+              <div
+                className="theme-info"
+              >
+                <p
+                  className="theme-info__name"
+                >
+                  Transactions
+                </p>
+                <i
+                  className="theme-info__icon material-icons"
+                >
+                  sentiment_very_satisfied
+                </i>
+              </div>
+            </td>
+            <td
+              className="table__cell"
+            >
+              Excellent keep it up
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="wrapper__footer"
+    />
+  </div>
+</section>
+`;

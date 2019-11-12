@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render with given state from Redux store 1`] = `
+<form
+  className="form form_centred"
+  onSubmit={[Function]}
+>
+  <h1
+    className="title"
+  >
+    Login
+  </h1>
+  
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__input-container"
+    >
+      <input
+        className="input-group__input"
+        id="username"
+        name="username"
+        onChange={[Function]}
+        placeholder="Username"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group__input-container"
+    >
+      <input
+        className="input-group__input"
+        id="password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+  </div>
+  <div
+    className="input-group"
+  >
+    <button
+      className="btn btn_full"
+      type="submit"
+    >
+      Login
+    </button>
+  </div>
+</form>
+`;
