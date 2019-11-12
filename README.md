@@ -20,8 +20,21 @@ to cancel a filter, click on it a second time or on the value of this filter tha
 
 ## Getting Started
 
-Download or clone the app.
+```
+Notice: Before you begin, make sure that Node.js is installed on your computer
+```
 
+:one: Download or clone the app. <br />
+
+:two: Go to the repository <br />
+
+:three: Run `npm install` <br />
+
+:four: Run `npm run start` <br />
+
+:five: Open [http://0.0.0.0:8080](http://0.0.0.0:8080) in a browser <br />
+
+Enjoy! :icecream:
 
 ## Available Scripts
 
@@ -30,9 +43,6 @@ In the project directory, you can run:
 ### `npm run start`
 
 Runs the app in the development mode.<br />
-Open [http://0.0.0.0:8080](http://0.0.0.0:8080) to view it in the browser.
-
-Enjoy! :-)
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
@@ -58,5 +68,3 @@ Your app is ready to be deployed!
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
